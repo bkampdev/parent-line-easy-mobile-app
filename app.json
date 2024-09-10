@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "student-line-easy-mobile-app",
+    "slug": "line-easy-student",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Este app usa o Face ID para autenticar e melhorar sua experiência de login."
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "LineEasyApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nico_dev.lineeasystudent"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e2afec3-3f47-4743-8efe-2cd4c22568e4"
+      }
+    },
+    "owner": "nico_dev",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4e2afec3-3f47-4743-8efe-2cd4c22568e4"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ]
+  }
+}
